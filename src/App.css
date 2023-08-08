@@ -1,0 +1,539 @@
+@font-face {
+    font-family: "SangBleuSans";
+    font-weight: 400;
+    src: url(./fonts/SangBleuSans-Regular.otf);
+}
+@font-face {
+    font-family: "Beatrice-Medium";
+    font-weight: 500;
+    src: url(./fonts/Beatrice_Medium.otf);
+}
+@font-face {
+    font-family: "Beatrice-Light";
+    font-weight: 300;
+    src: url(./fonts/Beatrice_Light.otf);
+}
+@font-face {
+    font-family: "Beatrice-Display-Black";
+    font-weight: 900;
+    src: url(./fonts/Beatrice_Display_Black.otf);
+}
+@font-face {
+    font-family: "Beatrice-Bold";
+    font-weight: 700;
+    src: url(./fonts/Beatrice_Bold.otf);
+}
+
+body {
+    font-family: "Beatrice-Light";
+}
+
+.tamaño-black {
+    font-family: "Beatrice-Display-Black" !important;
+}
+
+.tamaño-medium {
+    font-family: "Beatrice-Medium" !important;
+}
+
+.tamaño-sang {
+    font-family: "SangBleuSans" !important;
+}
+
+.tamaño-bold {
+    font-family: "Beatrice-Bold" !important;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+h5 {
+    font-size: 1.2rem !important;
+}
+
+.color-blanco {
+    color: white !important;
+}
+
+.color-gris {
+    color: #c8c8c8;
+}
+
+.color-gris-fondo {
+    background-color: #c8c8c8;
+}
+
+.color-gris-claro {
+    color: #c8c8c888;
+}
+.color-gris-claro-fondo {
+    background-color: #c8c8c888;
+}
+
+.color-marron-claro {
+    color: #bda17b;
+}
+
+.color-marron-claro-fondo {
+    background-color: #bda17b;
+}
+
+.color-marron {
+    color: #8c734b;
+}
+
+.color-marron-fondo {
+    background-color: #8c734b;
+}
+
+.color-negro {
+    color: #1b1b1b;
+}
+
+.color-negro-fondo {
+    background-color: #1b1b1b;
+}
+
+/* NavbarNegro */
+.nav-links:after {
+    display: flex;
+    position: static;
+    width: 100%;
+    height: 4px;
+    background-color: #bda17b;
+    color: #bda17b;
+    content: "";
+    opacity: 0;
+    transition:
+        opacity 0.3s ease 0s,
+        transform 0.3s ease 0s;
+    transform: translateY(10px);
+}
+.nav-links:hover:after {
+    opacity: 1;
+    transform: translateY(5px);
+}
+
+.navbar-toggler {
+    border-color: white !important;
+    border-radius: 10px !important;
+    border-width: 2px !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url(https://res.cloudinary.com/laestancia/image/upload/v1647274024/5fcea6a2213fe72c9ea0f37f_clipart773806_thzeue_jslrvy.png) !important;
+}
+
+/*  Navbar */
+.transparente .color-negro-fondo {
+    background-color: transparent !important;
+}
+
+.logo-nav {
+    display: none !important;
+}
+
+@media (min-width: 992px) {
+    .logo-nav {
+        display: block !important;
+    }
+}
+.tamaño-logo {
+    width: 90%;
+}
+
+/* Banner */
+.sin-sub {
+    text-decoration: none;
+}
+.fondo-banner {
+    background-image: url(https://res.cloudinary.com/laestancia/image/upload/v1647274097/Grupo_421_2x_zcolmv_r85za8.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.margen-Y {
+    margin: 250px;
+}
+.imagen-banner {
+    width: 40%;
+}
+
+.boton-menu {
+    color: white !important;
+    border-color: #bda17b !important;
+    background-color: transparent !important;
+    border-radius: 0 !important;
+}
+
+.boton-menu p {
+    font-size: 1.5rem;
+}
+
+.posicion-boton-menu {
+    margin-top: 80vh;
+}
+
+.boton-menu:hover {
+    background-color: #bda17b !important;
+}
+/* Opiniones */
+
+.card-opinion {
+    background-image: url(https://res.cloudinary.com/laestancia/image/upload/v1647274046/Grupo_221_2x_wi8yay_xfiobx.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 362px;
+    height: 340px;
+}
+.card-contenido {
+    padding: 3rem 3rem 0.5rem 3rem;
+}
+.card-pie {
+    padding: 0 3rem 1.5rem 3rem;
+}
+
+@media (max-width: 1440px) {
+    .card-opinion {
+        width: 340px;
+        height: 320px;
+    }
+
+    .opiniones h5 {
+        font-size: 1rem !important;
+    }
+    .card-opinion p {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .card-opinion {
+        width: 240px;
+        height: 220px;
+    }
+    .opiniones h5 {
+        font-size: 0.85rem !important;
+    }
+    .card-contenido {
+        padding: 1rem 1rem 0.5rem 1rem;
+    }
+    .card-pie {
+        padding: 0 1rem 0.5rem 1rem;
+    }
+    .card-opinion p {
+        font-size: 0.8rem !important;
+    }
+}
+@media (max-width: 768px) {
+    .card-opinion {
+        width: 300px;
+        height: 280px;
+    }
+    .opiniones h3 {
+        font-size: 27px !important;
+    }
+    .opiniones h5 {
+        font-size: 1rem !important;
+    }
+    .card-contenido {
+        padding: 1.8rem 1.8rem 0.5rem 1.8rem;
+    }
+    .card-pie {
+        padding: 0 2rem 0.5rem 2rem;
+    }
+    .card-opinion p {
+        font-size: 1rem !important;
+    }
+}
+@media (max-width: 425px) {
+    .card-opinion {
+        width: 265px;
+        height: 247px;
+    }
+    .opiniones h3 {
+        font-size: 20px !important;
+    }
+    .opiniones h5 {
+        font-size: 1rem !important;
+    }
+    .card-contenido {
+        padding: 1rem 1rem 0.4rem 1rem;
+    }
+    .card-pie {
+        padding: 0 1rem 0.5rem 1rem;
+    }
+    .card-opinion p {
+        font-size: 1rem !important;
+    }
+}
+
+/*css de la seccion fotos*/
+.alinear-nav {
+    margin-top: -45px !important;
+    padding-top: 45px !important;
+}
+
+.fotos-fondo {
+    background-image: url(https://res.cloudinary.com/laestancia/image/upload/v1647274025/1_maftfj_a1wfzs.jpg);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Css aplicado al boton de mapa */
+.ov-btn-grow-box {
+    border: 2px solid #fafafa; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+.ov-btn-grow-box:hover {
+    color: #8c734b;
+}
+.ov-btn-grow-box::after {
+    content: "";
+    background: #e6ab5428; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0, 0);
+    transition: all 0.3s ease;
+}
+.ov-btn-grow-box:hover::after {
+    transition: all 0.3s ease-out;
+    transform: scale(1, 1);
+}
+
+/*CSS aplicado al Footer*/
+.studio:hover {
+    color: #8c734b;
+}
+
+.main-footer {
+    color: darkblue;
+    background-color: #202020;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    z-index: 2 !important;
+}
+.logo-footer {
+    width: 250px;
+    height: 250px;
+    padding: 1rem;
+}
+
+.imagen-footer {
+    margin-top: auto;
+    width: 340px;
+    height: 300px;
+}
+@media (max-width: 768px) {
+    .imagen-footer {
+        width: 300px;
+        height: 250px;
+        padding: 1.2rem 1rem 1rem 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .ocultar-div {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .logo-footer-oculto {
+        margin: auto;
+    }
+}
+
+.ocultar-logo {
+    display: none;
+}
+
+/*Nosotros*/
+.img-about {
+    width: 600px;
+}
+
+/* Conctacto */
+
+.fondo-contacto {
+    background-image: url(https://res.cloudinary.com/laestancia/image/upload/v1647274017/opcion_1_jqxv7b_djji71.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 80vh;
+}
+
+@media (max-width: 1024px) {
+    .fondo-contacto {
+        height: 73vh;
+    }
+}
+@media (max-width: 768px) {
+    .fondo-contacto {
+        background-size: 70%;
+    }
+}
+@media (max-width: 425px) {
+    .fondo-contacto {
+        height: 80vh;
+        background-size: 90%;
+    }
+    .texto-contacto {
+        padding-top: 85px;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 320px) {
+    .fondo-contacto {
+        /* height: 53vh; */
+        background-size: 90%;
+    }
+}
+
+.borde-marron {
+    border-color: #8c734b !important ;
+    border-radius: 0 !important;
+}
+
+.boton-whatsapp {
+    border: 0;
+}
+
+.deliverys {
+    width: 550px;
+}
+
+.ov-btn-grow-ellipse {
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+}
+.ov-btn-grow-ellipse:hover {
+    color: #fff; /* color de fuente hover */
+}
+.ov-btn-grow-ellipse::after {
+    content: "";
+    background: #8c734b; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    display: block;
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    transform: scale(0, 0);
+    transition: all 0.4s ease;
+}
+.ov-btn-grow-ellipse:hover::after {
+    transition: all 0.6s ease-out;
+    transform: scale(1, 1);
+}
+
+/* campana */
+.aparicion-out {
+    /* transition: opacity 0.1s ease 0s, transform 0.1s ease 0s ; */
+    transition:
+        opacity 1.1s ease 0s,
+        transform 0.5s ease 0s;
+    transform: translateY(10px);
+}
+.aparicion-in {
+    transition:
+        opacity 0.7s ease 1s,
+        transform 0.7s ease 1s;
+    transform: translateY(300px);
+}
+
+.campana {
+    width: 10%;
+    z-index: 1 !important;
+}
+
+@media (max-width: 1024px) {
+    .campana {
+        width: 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    .campana {
+        width: 12%;
+    }
+}
+
+@media (max-width: 425px) {
+    .campana {
+        width: 18%;
+    }
+}
+
+@media (max-width: 375px) {
+    .campana {
+        width: 14%;
+    }
+}
+
+/* reserva */
+
+.boton-enviar {
+    border: 0px !important;
+    border-radius: 0 !important;
+    background-color: #bda17b !important;
+}
+
+.linea-sola {
+    width: 50%;
+}
+
+@media (max-width: 1024px) {
+    .linea-sola {
+        width: 65%;
+    }
+}
+
+@media (max-width: 425px) {
+    .linea-sola {
+        width: 100%;
+    }
+}
+
+/*Css aplicado a ABOUT*/
+.contender-video {
+    position: inherit;
+}
+.react-player {
+    position: relative;
+}
+
+.pt-pagcon {
+    padding-top: 200px;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 55vh;
+}

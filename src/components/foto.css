@@ -1,0 +1,40 @@
+@media (min-width: 1440px) {
+    .imagen-card {
+        width: 400px;
+    }
+} 
+
+@media (max-width: 1264px) {
+    .imagen-card {
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .imagen-card {
+        width: 220px;
+    }
+}
+
+
+@media (max-width: 476px) {
+    .imagen-card{
+        width: 170px;
+    }
+}
+@media (max-width: 378px) {
+    .imagen-card{
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 336px) {
+    .imagen-card{
+        width: 120px;
+    }
+}
+
+.imagen-card:hover {
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);transform:scale(0.98);
+} 
