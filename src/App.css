@@ -537,3 +537,9 @@ h5 {
     align-items: center;
     min-height: 55vh;
 }
+
+.centrado-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
