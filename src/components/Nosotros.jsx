@@ -1,6 +1,5 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import ReactPlayer from "react-player";
 
 export default function Nosotros() {
   return (
@@ -30,9 +29,16 @@ export default function Nosotros() {
         </p>
         <div className="d-flex justify-content-center mt-5">
           <Image
-            src="https://res.cloudinary.com/laestancia/image/upload/v1647274014/linea_scckik_hyhbax.jpg"
+            src="https://res.cloudinary.com/laestancia/image/upload/v1691605392/nuevas%20fotos/1_bzvhvx.png"
             fluid
             alt="linea divisoria"
+          />
+        </div>
+        <div className="d-flex justify-content-center mt-5">
+          <Image
+            src="https://res.cloudinary.com/laestancia/image/upload/v1647274014/linea_scckik_hyhbax.jpg"
+            fluid
+            alt="la estancia local"
           />
         </div>
         {/* <div className="container text-center">
