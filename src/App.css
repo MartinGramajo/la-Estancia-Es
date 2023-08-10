@@ -377,36 +377,16 @@ h5 {
 
 .fondo-contacto {
     background-image: url(https://res.cloudinary.com/laestancia/image/upload/v1647274017/opcion_1_jqxv7b_djji71.jpg);
-    background-size: 50%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
     height: 80vh;
 }
 
-@media (max-width: 1024px) {
-    .fondo-contacto {
-        height: 73vh;
-    }
-}
-@media (max-width: 768px) {
-    .fondo-contacto {
-        background-size: 70%;
-    }
-}
 @media (max-width: 425px) {
-    .fondo-contacto {
-        height: 80vh;
-        background-size: 90%;
-    }
     .texto-contacto {
         padding-top: 85px;
         font-size: 1.2rem;
-    }
-}
-@media (max-width: 320px) {
-    .fondo-contacto {
-        /* height: 53vh; */
-        background-size: 90%;
     }
 }
 
@@ -420,7 +400,19 @@ h5 {
 }
 
 .deliverys {
-    width: 550px;
+    width: 300px;
+}
+
+@media (max-width: 800px) {
+    .deliverys {
+        width: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .deliverys {
+        width: 200px;
+    }
 }
 
 .ov-btn-grow-ellipse {
