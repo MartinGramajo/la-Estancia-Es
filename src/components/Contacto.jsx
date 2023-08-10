@@ -83,14 +83,14 @@ export default function Contacto() {
 
       <div className="text-center d-block d-sm-none">
         <img
-          className="img-fluid px-5 deliverys "
+          className="img-fluid px-5 pb-3 deliverys "
           src="https://res.cloudinary.com/laestancia/image/upload/v1691686969/nuevas%20fotos/uberlogo_xyivsc.png"
           alt="uber"
         />
       </div>
       <div className="text-center d-block d-sm-none">
         <img
-          className="img-fluid px-5 deliverys "
+          className="img-fluid px-5 pb-4 deliverys "
           src="https://res.cloudinary.com/laestancia/image/upload/v1691687729/nuevas%20fotos/justeat_ienlw3.png"
           alt="just eat"
         />
