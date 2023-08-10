@@ -57,16 +57,14 @@ export default function ReservaMesa() {
       </h3>
       <h5 className="text-center mb-5 fs-6  container px-5 ">
         Para reservar tu mesa, puedes llamarnos al teléfono{" "}
-        <Button
-          className="bg-transparent mb-1 p-1"
-          variant="light"
-          href="https://wa.link/sjvqme"
+        <a
+          href="tel:+868130872"
           target="_blank"
           rel="noreferrer"
+          className="numero contacto text-decoration-none text-black"
         >
-          {" "}
           <b>868 13 08 72</b>{" "}
-        </Button>{" "}
+        </a>
         <br />O si prefieres, puedes enviarnos el siguiente formulario de
         reserva
       </h5>

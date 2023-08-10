@@ -2,7 +2,6 @@ import Button from "@restart/ui/esm/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { Image } from "react-bootstrap";
 
 export default function Contacto() {
   return (
@@ -56,11 +55,6 @@ export default function Contacto() {
         Pedidos y recogida en el local
       </h5>
       <div className="text-center d-sm-block d-none">
-        {/* <img
-          className="img-fluid px-5 deliverys"
-          src="https://res.cloudinary.com/laestancia/image/upload/v1647274046/editada_mycnam_ufn4qt.jpg"
-          alt="deliverys"
-        /> */}
         <div>
           <img
             className="img-fluid px-5 deliverys mt-2"
