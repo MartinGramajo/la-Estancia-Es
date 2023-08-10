@@ -1,6 +1,6 @@
-.alinear-nav-mapa{
+.alinear-nav-mapa {
     margin-top: -20px !important;
-    padding-top:20px !important;
+    padding-top: 20px !important;
 }
 
 .mapa {
@@ -17,57 +17,44 @@
     overflow: hidden;
 }
 
-
-.modal-imagen-body{
+.modal-imagen-body {
     width: 100%;
 }
 
-.google-map{
+.google-map {
     font-size: 0.85rem;
 }
 
-.color-marron-texto-boton{
+.color-marron-texto-boton {
     color: #8c734b;
 }
 
-@media (max-width: 1440px){
-    .modal-boton{
+@media (max-width: 1440px) {
+    .modal-boton {
         width: 350px;
-        height:380px;
+        height: 380px;
     }
-
 }
 
-@media (max-width: 1024px){
-    .modal-boton{
+@media (max-width: 1024px) {
+    .modal-boton {
         width: 200px;
-        height:200px;
+        height: 200px;
     }
-
 }
 
 @media (max-width: 768px) {
-    .ocultar-mapa{
+    .ocultar-mapa {
         display: none;
     }
-    .centrar-texto-responsive{
+    .centrar-texto-responsive {
         text-align: center;
     }
 }
 
 @media (max-width: 425px) {
-    .modal-boton{
+    .modal-boton {
         width: 200px;
         height: 200px;
     }
-    
 }
-
-/*Media para quitar el espaciado entre texto en mapa */
-@media (max-width: 768px) {
-    .centrado-responsive {
-        margin-top: -30px;
-        
-    }
-}
-

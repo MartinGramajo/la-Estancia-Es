@@ -10,33 +10,6 @@ export default function Mapa() {
     <div id="#/mapa" className="alinear-nav-mapa my-5">
       <div className="container d-flex justify-content-around mt-5 color-marron-claro-fondo mapa ">
         <div className="row texto">
-          {/* <div className=" text-white centrar-texto-responsive p-4 col-lg-4 col-sm-12 ">
-            <h1 className="tamaño-bold fs-4 ">HORARIOS:</h1>
-            <span className="tamaño-medium">
-              <h1 className="fs-6">LUNES:</h1>
-              <p>CERRADO</p>
-            </span>
-            <span className="tamaño-medium">
-              <h1 className="fs-6 "> MARTES Y MIÉRCOLES</h1>
-              <p>de 11:00 a 17:00 hs.</p>
-            </span>
-            <span className="tamaño-medium">
-              <h1 className="fs-6">JUEVES:</h1>
-              <p>de 11:00 a 17:00 y de 19:30 a 00:00 hs.</p>
-            </span>
-            <span className="tamaño-medium">
-              <h1 className="fs-6">VIERNES:</h1>
-              <p>de 11:00 a 00:30 hs.</p>
-            </span>
-            <span className="tamaño-medium">
-              <h1 className="fs-6">S­­ÁBADO:</h1>
-              <p>de 12:00 a 17:00 y de 19:30 a 00:00 hs.</p>
-            </span>
-            <span className="tamaño-medium">
-              <h1 className="fs-6">DOMINGO:</h1>
-              <p>de 12:00 a 17:00 hs.</p>
-            </span>
-          </div> */}
           <div className=" text-white centrar-texto-responsive p-4 col-lg-6 col-sm-12 ">
             <h1 className=" centrado-responsive tamaño-bold fs-4 ">
               ¡TE ESPERAMOS!
