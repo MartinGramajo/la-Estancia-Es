@@ -13,9 +13,9 @@ export default function NavbarNegro() {
       >
         <Container>
           <Navbar.Brand href="/">
-            <div>
+            <div className="">
               <img
-                className="tamaño-logo"
+                className="tamaño-logo "
                 src="https://res.cloudinary.com/laestancia/image/upload/v1647274011/Grupo_423_2x_f4wchl_ogwik9.png"
                 alt="logo la estancia Gastrohome"
               />
