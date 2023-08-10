@@ -90,9 +90,9 @@ export default function Contacto() {
       </div>
       <div className="text-center d-block d-sm-none">
         <img
-          className="img-fluid px-5  deliverys "
-          src="https://res.cloudinary.com/laestancia/image/upload/v1691687359/nuevas%20fotos/justeat_ophtqf.png"
-          alt="justeat"
+          className="img-fluid px-5 deliverys "
+          src="https://res.cloudinary.com/laestancia/image/upload/v1691687729/nuevas%20fotos/justeat_ienlw3.png"
+          alt="just eat"
         />
       </div>
     </div>
