@@ -11,6 +11,7 @@ import MapaUbicacion from "./pages/MapaUbicacion";
 import PaginaConstruccion from "./pages/PaginaConstruccion";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import MenuEsperar from "./pages/MenuEsperar";
+import PedidoYa from "./pages/PedidoYa";
 
 
 
@@ -23,7 +24,7 @@ function App() {
                 <Routes>
                     <Route exact path="/" element={<Home />} />
                     <Route exact path="/menu" element={<MenuEsperar />} />
-                    <Route exact path="/pedido" element={<Pedido />} />
+                    <Route exact path="/pedido" element={<PedidoYa />} />
                     <Route exact path="/reserva" element={<Reserva />} />
                     <Route exact path="/nosotros" element={<About />} />
                     <Route exact path="/legal" element={< Legal />} />
