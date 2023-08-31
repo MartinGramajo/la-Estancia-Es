@@ -9,7 +9,7 @@ export default function Contacto() {
       <h3 className="tamaño-bold text-center my-4 my-sm-5 texto-contacto">
         Ahora también puedes disfrutar <br /> en casa de nuestra carta
       </h3>
-      <div className="text-center mb-4 responsive-espacios ">
+      <div className="text-center mb-4">
         <a
           href="tel:+868130872"
           target="_blank"
@@ -30,7 +30,7 @@ export default function Contacto() {
         </a>
       </div>
 
-      <div className="text-center mb-4 responsive-espacios ">
+      <div className="text-center mb-4 ">
         <a
           href="https://wa.link/u0g31u"
           target="_blank"
@@ -57,12 +57,12 @@ export default function Contacto() {
       <div className="text-center d-sm-block d-none">
         <div>
           <img
-            className="img-fluid px-5 deliverys mt-2"
+            className="img-fluid px-5 deliverys my-5"
             src="https://res.cloudinary.com/laestancia/image/upload/v1691687357/nuevas%20fotos/glovo_jythyc.png"
             alt="glovo"
           />
           <img
-            className="img-fluid px-5 deliverys mt-2"
+            className="img-fluid px-5 deliverys my-5"
             src="https://res.cloudinary.com/laestancia/image/upload/v1691699345/uberEats_w0xazn.png"
             alt="Uber Eats"
           />
@@ -77,7 +77,7 @@ export default function Contacto() {
       </div>
       <div className="text-center d-block d-sm-none">
         <img
-          className="img-fluid px-5 deliverys mt-2"
+          className="img-fluid px-5 deliverys my-5"
           src="https://res.cloudinary.com/laestancia/image/upload/v1691699345/uberEats_w0xazn.png"
           alt="Uber Eats"
         />

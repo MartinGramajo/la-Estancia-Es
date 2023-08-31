@@ -16,7 +16,7 @@ const PedidoYa = () => {
             <h3 className="tamaño-bold text-center my-4 my-sm-5 texto-contacto">
               Ahora también puedes disfrutar <br /> en casa de nuestra carta
             </h3>
-            <div className="text-center mb-4 responsive-espacios ">
+            <div className="text-center mb-4 ">
               <a
                 href="tel:+868130872"
                 target="_blank"
@@ -36,7 +36,7 @@ const PedidoYa = () => {
                 </Button>
               </a>
             </div>
-            <div className="text-center mb-4 responsive-espacios pb-5">
+            <div className="text-center mb-4 pb-5">
               <a
                 href="https://wa.link/u0g31u"
                 target="_blank"
