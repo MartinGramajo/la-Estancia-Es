@@ -29,11 +29,7 @@ export default function Menu() {
       {/* {navbarPosition?<Campana />:null} */}
       <Campana />
       <div className="container">
-        <Carta />
-        <Postres />
-        <Bebidas />
-        <Alcoholes />
-        <Vinos />
+      
       </div>
       <Footer />
     </div>
